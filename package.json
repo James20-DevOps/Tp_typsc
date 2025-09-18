@@ -7,7 +7,7 @@
     "dev": "nodemon --watch src --exec ts-node src/index.ts",
     "build": "tsc",
     "start": "nodemon --watch src --exec ts-node src/essai.ts",
-    "test": "jest"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +23,8 @@
     "nodemon": "^3.1.10",
     "ts-jest": "^29.4.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^0.34.2"
   },
   "dependencies": {
     "bcrpyt": "^2.0.0",
